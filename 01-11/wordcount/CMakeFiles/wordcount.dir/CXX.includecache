@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dae/data/lab02/wordcount/Tokenizer.h
+string.h
+-
+string
+-
+iostream
+-
+
+/home/dae/data/lab02/wordcount/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+set
+-
+algorithm
+-
+Tokenizer.h
+/home/dae/data/lab02/wordcount/Tokenizer.h
+
