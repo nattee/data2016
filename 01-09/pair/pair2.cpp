@@ -14,6 +14,7 @@ int main() {
   p2.second = 9999;
 
   p1 = p2;
+  p2 = p1;
 
   cout << p1.first << " : " << p1.second << endl;
   cout << p2.first << " : " << p2.second << endl;
