@@ -28,9 +28,13 @@ int main() {
 
 
   //----------- write your code here ------------
+  delete front->next->next->next;
+  front->next->next->next = 
+    front->next;
+  front->next = front->next->next;
+  delete front->next->next->next;
+  front->next->next->next = NULL;
 
-  // write code here such that
-  // display will show 10, 30
 
 
   //------------------- display --------------------

@@ -24,5 +24,7 @@ int main() {
 
   cout << front->data << endl;
   cout << front->next << endl;
+
+  front->next->next->next->data = 40;
 }
 

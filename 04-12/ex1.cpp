@@ -23,9 +23,8 @@ int main() {
   front->data = 20;
 
   //----------- write your code here ------------
-
-  // write code here such that
-  // display will show 10, 20, 30
+  front = new node<int>(10,front);
+  front->next->next = new<int>(30,NULL);
 
 
   //------------------- display --------------------
